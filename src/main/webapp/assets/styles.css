@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+
+h1 {
+
+}
+tr{
+	height: 1.8em;
+}
+.cartelera_peliculas {
+	position: relative;
+	width: 220px;
+	height: 380px;
+	margin: 0 0 15px 4px;
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+}
+.butaca_libre{
+	background: rgb(255,255, 255) url("Images/Iconos/ButacaLibre.webp") no-repeat center;
+	background-size: 100%;
+    font-family: "hnmd";
+    font-weight: 100;
+}
+.butaca_ocupada{
+	background: url("Images/Iconos/ButacaOcupada.webp") no-repeat center;
+	background-size: 100%;
+    font-family: "hnmd";
+    font-weight: 100;
+}
+.pantalla{
+		background: url("Images/Iconos/Pantalla.webp") no-repeat center;
+	
+}
+td{
+	width: 24px;
+    height: 20px;
+}
